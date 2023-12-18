@@ -1,0 +1,10 @@
+-------- GLOBALS - no window ---------
+
+you know there's no window in Node. why well because there's no browser so there's no window object so if you try to access window node will spit back the error and most likely your app will crash.
+now there are some global variables and essentially what global variables means is that anywhere in your application you can access them so no matter how complex your application gets or how nested it gets you'll always have access to those variables and again let me repeat these are just some of the variables of course there's more. here is some of them:
+
+1 __dirname   - path to current directory
+2 __filename  - file name
+3 require     - function to use modules (common JS)
+4 module      - info about current module
+5 process     - info about the environment where               the program is being executed
