@@ -1,6 +1,5 @@
 const fs = require('fs');
 const os = require('os');
-const path = require('path');
 
 fs.readFile('./content/test.txt', 'utf8', (err, res) => {
     if(err) console.log(err);

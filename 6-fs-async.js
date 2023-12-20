@@ -40,7 +40,7 @@ start();
 
 /********** Comments **********
 
- "promises" in the "fs" method is used to convert the traditional callback-based functions (fs.readFile and fs.writeFile) into Promise-based functions. When you use promises, it returns a version of the function that returns a Promise instead of using callbacks.
+"promises" in the "fs" method is used to convert the traditional callback-based functions (fs.readFile and fs.writeFile) into Promise-based functions. When you use promises, it returns a version of the function that returns a Promise instead of using callbacks.
 
 With fs.promises, you can work with the functions in a more modern, Promise-based syntax, using async/await for better readability and control flow. The resulting readFile and writeFile functions return Promises, and therefore you can use them with await instead of providing callback functions.
 

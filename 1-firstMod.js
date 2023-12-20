@@ -1,8 +1,8 @@
 const os = require('os');
 const fs = require('fs');
 const path = require('path');
-const add = require('./secndMod.js');
-const { num1, num2 } = require('./variables.js');
+const add = require('./2-secndMod.js');
+const { num1, num2 } = require('./3-variables.js');
 
 const first = fs.readFileSync('./content/test.txt', 'utf8');
 const scnd = fs.readFileSync('./content/subContent/test2.txt', 'utf8');
